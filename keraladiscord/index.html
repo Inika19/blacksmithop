@@ -14,6 +14,14 @@
     />
   </head>
   <body>
+    <script src="invite.js"></script>
+    <script>
+      discordInvite.init({
+        inviteCode: 'ZBPaVG',
+        title: 'Kerala',
+      });
+      discordInvite.render();
+    </script>
     <div class="container">
       <main>
         <div id="home">
@@ -30,6 +38,7 @@
               <h2>
                 Join US
               </h2>
+              <div id="discordInviteBox"></div>
             </section>
               <div class="desktop-only">
                 <iframe class="discord" src="https://discordapp.com/widget?id=618270738247581706&theme=dark">
