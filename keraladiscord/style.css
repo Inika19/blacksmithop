@@ -96,8 +96,8 @@ iframe {
     right    : 0;
     height   : 100%;
     width    : 50%;
+    border: 0;
 }
-
 
 @keyframes discord {
 	0% {height:70px; width:250px;}
@@ -123,6 +123,16 @@ iframe {
 	animation-play-state: pause;
 }
 
+@media screen and (max-width: 600px) {
+  .desktop-only {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
 
 /*──────────────────
      Scrollbar
