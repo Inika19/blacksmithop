@@ -44,7 +44,7 @@ header {
 }
 
 header:hover {
-  opacity: 1;
+  opacity: 0.8;
   background: var(--main-header-background);
 }
 
@@ -68,6 +68,7 @@ a.nav-link {
   font-family: var(--main-font-family);
   cursor: pointer;
   text-transform: uppercase;
+  border-radius: 3px; 
 }
 
 .active {
