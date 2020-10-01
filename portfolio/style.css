@@ -58,6 +58,7 @@ header:hover {
   list-style: none;
   position: relative;
   display: inline-flex;
+  left: 80%;
 }
 
 a.nav-link {
